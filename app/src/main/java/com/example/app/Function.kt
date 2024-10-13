@@ -31,3 +31,9 @@ fun withReturn(panjang : Int, lebar : Int) {
     return println(panjang * lebar)
 }
 
+fun main(){
+    withoutParameter()
+    withParameter("John")
+    withNamedArgument(name = "Jhon", age = 30)
+    withDefaultParameter(age = 25)
+}
