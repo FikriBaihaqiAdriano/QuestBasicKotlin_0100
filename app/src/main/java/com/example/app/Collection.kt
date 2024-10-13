@@ -55,6 +55,9 @@ println(shape)
     shape.add("Rectangle")
     println(shape)
 
+    //Menghapus data dari set Mutable
+    shape.remove("Circle")
+    println(shape)
 
 }
 
