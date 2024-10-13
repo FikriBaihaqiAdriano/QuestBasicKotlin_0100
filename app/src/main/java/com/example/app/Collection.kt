@@ -90,6 +90,10 @@ fun ContohMap(){
     shape.remove("Circle")
     println(shape)
 
+    //Mengubah data di dalam Map Mutable
+    shape["Squere"] = 5
+    println(shape)
+
 }
 
 fun main(){
