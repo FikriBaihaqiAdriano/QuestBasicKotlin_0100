@@ -64,6 +64,19 @@ println(shape)
     println(shapesLocked)
 }
 
+// map adalah kumpulan data yang disusun dalam pasangan key-value
+// map bersifat unordered, artinya daya yang dimasukkan tidak memiliki posisi tertentu
+// map bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// map read only menggunakan mapOf
+// map mutable menggunakan mutableMapOf
+
+fun ContohMap(){
+    println()
+    println("=== Map ===")
+
+
+}
+
 fun main(){
     ContohList()
 
