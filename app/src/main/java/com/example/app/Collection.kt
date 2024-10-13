@@ -31,15 +31,22 @@ fun ContohList () {
     //List Read Only
     val shapeLocked: List<String> = shape
     println(shapeLocked)
+}
 
-    println(shape.first())
-    println(shape.last())
-    println(shape.count())
+// Set adalah Kumpulan data yang tidak memiliki posisi atau urutan tertentu dan hanya menyimpan data unik (tidak ada duplikasi)
+// Set bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu)
+// Set bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah)
+// Set Read-Only menggunakan setOf
+// Set Mutable menggunaka nmutableSetOf
 
-    shape.removeAt (1)
-    println(shape)
+fun ContohSet() {
+    println()
+    println("=== Set ===")
+
+
 }
 
 fun main(){
     ContohList()
+
 }
