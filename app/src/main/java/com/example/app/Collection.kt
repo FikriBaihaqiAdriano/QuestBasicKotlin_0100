@@ -59,6 +59,9 @@ println(shape)
     shape.remove("Circle")
     println(shape)
 
+    //Set Read-Only
+    val shapesLocked: Set<String> = shape
+    println(shapesLocked)
 }
 
 fun main(){
