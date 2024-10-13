@@ -28,6 +28,16 @@ fun ContohList () {
     shape [0] ="Oval"
     println(shape)
 
+    //List Read Only
+    val shapeLocked: List<String> = shape
+    println(shapeLocked)
+
+    println(shape.first())
+    println(shape.last())
+    println(shape.count())
+
+    shape.removeAt (1)
+    println(shape)
 }
 
 fun main(){
