@@ -74,6 +74,10 @@ fun ContohMap(){
     println()
     println("=== Map ===")
 
+    //Map Read-Only
+    val readOnlyShape: Map<String, Int> = mapOf("Circle" to 1, "Squere" to 2, "Triangle" to 3)
+    println(readOnlyShape)
+
 
 }
 
